@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: linear-gradient(to bottom right, #3498db, #e74c3c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #26125c, #4cccff, #7a7e68);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  text-align: center;
+}
+
+
+.container.box-colour {
+    background-image: linear-gradient( 135deg, #FFD26F 10%, #3677FF 100%);
+    width: 50%; 
+    height: 60vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Override Bootstrap's margin-bottom */
+h1 {
+    margin-bottom: 2rem !important;
+}
+
+
+/* Center the 'text' div within the container */
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.result {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+}
+
+/* Base font size */
+html {
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Apply responsive font size to all elements */
+* {
+    font-size: 1rem; /* 1rem is equivalent to the base font size */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* Media query for even larger screens */
+@media (min-width: 1024px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+
+
